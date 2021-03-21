@@ -3,8 +3,7 @@ package com.example.hunter.controller;
 
 import com.example.hunter.domain.Role;
 import com.example.hunter.domain.User;
-import com.example.hunter.repository.UserRepo;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.hunter.repository.UserRepository;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,12 +18,15 @@ import java.util.stream.Collectors;
 @RequestMapping("/user")
 @PreAuthorize("hasAuthority('ADMIN')")
 public class UserController {
-    @Autowired
-    private UserRepo userRepo;
+    private UserRepository userRepository;
+
+    public UserController(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @GetMapping
     public String userList(Model model) {
-        model.addAttribute("users", userRepo.findAll());
+        model.addAttribute("users", userRepository.findAll());
 
         return "userList";
     }
@@ -57,7 +59,7 @@ public class UserController {
             }
         }
 
-        userRepo.save(user);
+        userRepository.save(user);
 
         return "redirect:/user";
     }

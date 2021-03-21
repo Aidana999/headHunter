@@ -1,8 +1,12 @@
+C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\controller\UserController.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\repository\MessageRepository.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\domain\Message.java
+C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\repository\UserRepository.java
+C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\controller\RegistrationController.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\config\MvcConfig.java
-C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\controller\GreetingController.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\Application.java
+C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\controller\MainController.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\domain\Role.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\config\WebSecurityConfig.java
 C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\domain\User.java
+C:\Users\supar\IdeaProjects\hunter\src\main\java\com\example\hunter\service\UserService.java

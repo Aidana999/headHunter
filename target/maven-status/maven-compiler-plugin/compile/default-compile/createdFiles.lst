@@ -1,8 +1,12 @@
 com\example\hunter\repository\MessageRepository.class
 com\example\hunter\config\MvcConfig.class
 com\example\hunter\domain\Role.class
-com\example\hunter\controller\GreetingController.class
+com\example\hunter\service\UserService.class
 com\example\hunter\domain\Message.class
+com\example\hunter\repository\UserRepository.class
 com\example\hunter\config\WebSecurityConfig.class
+com\example\hunter\controller\RegistrationController.class
+com\example\hunter\controller\UserController.class
 com\example\hunter\Application.class
+com\example\hunter\controller\MainController.class
 com\example\hunter\domain\User.class
